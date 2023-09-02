@@ -1,0 +1,875 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      The target system is: Generic - 1 - arm
+      The host system is: Darwin - 22.5.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is TI, found in:
+        /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        [nologo.]
+        
+        >> Compilation failure
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        [nologo.]
+        
+        >> Compilation failure
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is TI, found in:
+        /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.obj
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        [nologo.]
+        
+        >> Compilation failure
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        [nologo.]
+        
+        >> Compilation failure
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      >> WARNING: invalid compiler option --version (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+      >> WARNING: invalid compiler option --version (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+      >> WARNING: invalid compiler option --version (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+      >> WARNING: invalid compiler option --version (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+      >> WARNING: invalid compiler option -V (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+      >> WARNING: invalid compiler option --version (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      >> WARNING: invalid compiler option --version (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+      >> WARNING: invalid compiler option -V (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+      TI ARM C/C++ Compiler                   v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      
+      TI ARM EABI C/C++ Parser                v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM C/C++ File Merge                 v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM C/C++ Optimizer                  v20.2.7.LTS
+      Build Number 1WH7K-2LI-UASAR-RXA-C08D
+      TI ARM G3 C/C++ Codegen                 v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM Assembler                        v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM Embed Utility                    v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM C Source Interlister             v20.2.7.LTS
+      Build Number 1WH7K-2LI-UASAR-RXA-C08D
+      TI ARM Linker                           v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM Absolute Lister                  v20.2.7.LTS
+      Build Number 1WH7K-2LI-UASAR-RXA-C08D
+      TI ARM Strip Utility                    v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM XREF Utility                     v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM C++ Demangler                    v20.2.7.LTS
+      Build Number 1WH7K-2LI-UASAR-RXA-C08D
+      TI ARM Hex Converter                    v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM Name Utility                     v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM Object File Display              v20.2.7.LTS
+      Build Number 1WH7L-2LI-UASAR-RXA-C08D
+      TI ARM Archiver                         v20.2.7.LTS
+      Build Number 1WH7K-2LI-UASAR-RXA-C08D
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is MSVC using "-?" did not match "Microsoft":
+      >> WARNING: invalid compiler option --? (ignored)
+      >> ERROR: no source files, nothing to do
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (project)"
+    message: |
+      Checking whether the ASM compiler is TI using "-h" matched "Texas Instruments":
+      TI ARM C/C++ Compiler                   v20.2.7.LTS
+      Copyright (c) 1996-2018 Texas Instruments Incorporated
+      
+      Usage: armcl [-options] filename
+      
+      Use 'armcl -h <option>' for more information on a particular option.  Use
+      'armcl -h <text>' to search options for information regarding <text>.
+      
+      Option arguments surrounded by [] declare they are optional.  Option arguments
+      separated by commas specify that the option's argument must be chosen from
+      those arguments listed.
+      
+      When shown, option arguments and defaults apply to the usage of both long and
+      short option forms.
+      
+      Processor Options:
+        -mv,--silicon_version=4,5e,6,6M0,7A8,7M3,7M4,7R4,7R5
+                                     Target processor version (when not specified,
+                                      compiler defaults to --silicon_version=4)
+        --code_state=16,32           Designate code state, 16-bit (thumb) or 32-bit
+        --float_support=VFPv2,VFPv3,VFPv3D16,vfplib,fpalib,FPv4SPD16,none
+                                     Specify floating point support
+        -me,--little_endian          Little endian code
+      
+      Optimization Options:
+        -O,--opt_level[=off,0,1,2,3,4]
+                                     Optimization level (argument optional, defaults
+                                      to: 3)
+        --opt_for_speed,-mf[=0-5]    Speed vs. size trade-offs  (argument optional,
+                                      defaults to: 4)
+        --fp_mode=relaxed,strict     Floating Point mode (when not specified,
+                                      compiler defaults to --fp_mode=strict)
+      
+      Include Options:
+        --include_path,-I=dir        Add dir to #include search path
+        --preinclude=filename        Specify a preinclude file
+      
+      ULP Advisor Options:
+        --advice:power[=RULE]        Enable checking of ULP power rules (argument
+                                      optional, defaults to: all)
+        --advice:power_severity=error,warning,remark,suppress
+                                     Set error category for ULP power rules
+      
+      Predefined Symbols Options:
+        --define,-D=NAME[=value]     Pre-define NAME
+        --undefine,-U=NAME           Undefine NAME
+      
+      Control Options:
+        --compile_only,-c            Disable linking (overrides -z)
+        --help,-h                    Show help screen
+        --run_linker,-z[=arguments]  Perform link using options following
+        --skip_assembler,-n          Compile only; do not assemble
+      
+      Advanced Debug Options:
+        -g,--symdebug:dwarf          Full symbolic debug
+        --symdebug:none              Suppress all symbolic debug generation
+        --symdebug:dwarf_version=3,4 Specify DWARF version
+      
+      Language Options:
+        --c11                        Compile program in C11 mode.
+        --c89                        Compile program in ANSI C89 mode.
+        --c99                        Compile program in C99 mode.
+        --c++14                      Compile program in C++14 mode.
+        --relaxed_ansi,-pr           Relaxed parsing (non-strict ANSI)
+        --strict_ansi,-ps            Strict ANSI mode (errors)
+        --exceptions                 Enable C++ exception handling
+        --rtti,-rtti                 Support C++ run-time type information
+        --cpp_default,-fg            Treat C files as C++ files
+        --extern_c_can_throw         Allow extern C functions to propagate exceptions
+        --float_operations_allowed=all,32,64,none
+                                     Floating point precision accepted by compiler
+                                      (when not specified, compiler defaults to
+                                      --float_operations_allowed=all)
+        --plain_char=signed,unsigned Specify how to treat plain chars
+                                      (signed/unsigned) (when not specified, compiler
+                                      defaults to --plain_char=unsigned)
+        --pending_instantiations=#   Limit pending template instantiations
+        --printf_support=nofloat,minimal,full
+                                     Level of printf/scanf support required (when not
+                                      specified, compiler defaults to
+                                      --printf_support=full)
+      
+      Parser Preprocessing Options:
+        --preproc_dependency,-ppd[=filename]
+                                     Generate include file dependency information
+        --preproc_includes,-ppi[=filename]
+                                     Generate first-level include file list
+        --preproc_macros,-ppm[=filename]
+                                     Generate list of pre- & user-defined macros
+        --preproc_only,-ppo          Preprocess only
+        --preproc_with_comment,-ppc  Preprocess only; maintain comments
+        --preproc_with_compile,-ppa  Continue compilation after using -pp<X> options.
+        --preproc_with_line,-ppl     Preprocess only; maintain line directives
+      
+      Diagnostic Options:
+        --compiler_revision          Print compiler revision and exit
+        --diag_error,-pdse=id        Treat diagnostic <id> as error
+        --diag_remark,-pdsr=id       Treat diagnostic <id> as remark
+        --diag_suppress,-pds=id      Suppress diagnostic <id>
+        --diag_warning,-pdsw=id      Treat diagnostic <id> as warning
+        --diag_wrap[=on,off]         Wrap diagnostic messages (argument optional,
+                                      defaults to: on)
+        --display_error_number,-pden Emit diagnostic identifier numbers
+        --emit_warnings_as_errors,-pdew
+                                     Treat warnings as errors
+        --issue_remarks,-pdr         Issue remarks
+        --no_warnings,-pdw           Suppress warnings
+        --quiet,-q                   Quiet Mode
+        --set_error_limit,-pdel=count
+                                     Set error limit to <count>
+        --super_quiet,-qq            Super Quiet Mode
+        --tool_version,-version      Print version numbers for each tool
+        --verbose                    Display banner and function progress information
+        --verbose_diagnostics,-pdv   Verbose diagnostics
+        --write_diagnostics_file,-pdf
+                                     Output diagnostic to .err file
+      
+      Runtime Model Options:
+        --gen_func_subsections,-ms[=on,off]
+                                     Place each function in a separate subsection
+                                      (argument optional, defaults to: on)
+        --use_dead_funcs_list[=fname]
+                                     Use linker-generated file to remove dead
+                                      functions
+        --gen_data_subsections=on,off
+                                     Place structs and arrays in separate subsections
+        --embedded_constants=on,off  Specify whether constants can be embedded in
+                                      code sections (when not specified, compiler
+                                      defaults to --embedded_constants=on)
+        --unaligned_access=on,off    Generate unaligned loads and stores (when not
+                                      specified, compiler defaults to
+                                      --unaligned_access=off)
+        --neon                       Generates SIMD instructions targeting Neon
+        --enum_type=unpacked,packed,int
+                                     Designate enum type (when not specified,
+                                      compiler defaults to --enum_type=packed)
+        --wchar_t=16,32              Set the size (in bits) of the C/C++ type wchar_t
+                                      (16,32) (when not specified, compiler defaults
+                                      to --wchar_t=16)
+        --common=on,off              Use ELF common symbols
+        --global_register,-r=r5,r6,r9
+                                     Reserve as global register
+        --ramfunc[=on,off]           Run functions from RAM. (argument optional,
+                                      defaults to: on)
+      
+      Advanced Optimizations Options:
+        --fp_reassoc=on,off          Allow reassociation of FP arithmetic (when not
+                                      specified, compiler defaults to
+                                      --fp_reassoc=off)
+        --sat_reassoc=on,off         Allow reassociation of sat arithmetic (when not
+                                      specified, compiler defaults to
+                                      --sat_reassoc=off)
+        --program_level_compile,-pm  Program mode compilation
+        --call_assumptions,-op=0-3   Specify call assumptions when optimizing
+        --auto_inline,-oi[=size]     Specify threshold for automatic inlining
+        --disable_global_symbol_clustering
+                                     Disable global symbol clustering
+        --disable_inlining           Disable inlining
+        --aliased_variables,-ma      Assume called funcs create hidden aliases (rare)
+      
+      Entry/Exit Hook Options:
+        --entry_hook[=hook_function_name]
+                                     Insert this call at entry to each function
+                                      (argument optional, defaults to: __entry_hook)
+        --exit_hook[=hook_function_name]
+                                     Insert this call at exit from each function
+                                      (argument optional, defaults to: __exit_hook)
+        --entry_parm=name,address,none
+                                     Pass caller's name or address to entry hook
+        --exit_parm=name,address,none
+                                     Pass caller's name or address to exit hook
+        --remove_hooks_when_inlining Remove entry/exit hooks from inlined functions
+      
+      Feedback and Analysis Options:
+        --gen_profile_info           Generate profile feedback data
+        --analyze=codecov            Generate analysis info from profile data
+        --analyze_only               Only generate analysis
+        --use_profile_info[=filelist]
+                                     Use profile feedback file(s)
+      
+      Assembler Options:
+        -k,--keep_asm                Keep the generated assembly language (.asm) file
+        --asm_listing,-al            Generate listing file
+        --c_src_interlist,-ss        Generate C source interlisted assembly file
+        --src_interlist,-s           Generate interlisted assembly file
+        --asm_define,-ad=NAME[=value]
+                                     Pre-define assembly symbol NAME
+        --asm_undefine,-au=NAME      Undefine assembly symbol NAME
+        --absolute_listing,-aa       Generate absolute listing file
+        --asm_cross_reference_listing
+                                     Generate cross reference assembly listing file
+        --asm_dependency,-apd[=filename]
+                                     Generate assembly dependency information
+        --asm_includes,-api          Generate first-level assembly include file list
+      
+      File Type Specifier Options:
+        --asm_file,-fa=filename      File is an assembly file (default for .asm)
+        --c_file,-fc=filename        File is a C file (default for .c/no ext)
+        --cpp_file,-fp=filename      File is a C++ file (default for .C .cpp .cc)
+        --obj_file,-fo=filename      File is an object file (default for .obj)
+      
+      Directory Specifier Options:
+        --abs_directory,-fb=dir      Absolute listing directory (default is .obj dir)
+        --asm_directory,-fs=dir      Assembly file directory (default is .)
+        --list_directory,-ff=dir     Listing/xref file directory (default is .obj
+                                      dir)
+        --obj_directory,-fr=dir      Object file directory (default is .)
+        --output_file,-fe=filename   Compilation output file name, can override
+                                      --obj_directory
+        --pp_directory=dir           Preprocessor file directory (default is .)
+        --temp_directory,-ft=dir     Temporary file directory (default is .)
+      
+      Default File Extensions Options:
+        --asm_extension,-ea=.ext     Extension for assembly files (default is .asm)
+        --c_extension,-ec=.ext       Extension for C files (default is .c)
+        --cpp_extension,-ep=.ext     Extension for C++ files (default is .cpp)
+        --listing_extension,-es=.ext Extension for listing files (default is .lst)
+        --obj_extension,-eo=.ext     Extension for object files (default is .obj)
+      
+      Command Files Options:
+        --cmd_file,-@=filename       Read options from specified file 
+      
+      MISRA-C:2004 Options:
+        --check_misra[=RULE]         Enable checking of MISRA-C:2004 rules (argument
+                                      optional, defaults to: all)
+        --misra_advisory=error,warning,remark,suppress
+                                     Set severity of MISRA 'advisory' rule class
+        --misra_required=error,warning,remark,suppress
+                                     Set severity of MISRA 'required' rule class
+      
+      Supplemental Information Options:
+        --gen_cross_reference_listing
+                                     Output cross reference listing to .crl file
+        --gen_func_info_listing      Generate a function information listing file
+        --gen_opt_info,-on=0-2       Generate optimizer information file at level
+                                      [0-2]
+        --gen_preprocessor_listing   Output preprocessor listing to .rl file
+        --section_sizes[=on,off]     Output section size summary information.
+                                      (argument optional, defaults to: on)
+      
+      Miscellaneous Options:
+        --parallel[=parallelism]     Allow parallel compilation up to this many
+                                      threads (argument optional, defaults to: 0)
+      
+      The following Linker options can be specified following the -z
+      option.  Linking is only enabled if -z is used and -c is not:
+      
+      Basic Options:
+        --emit_references:file=file  Specify the output path for section dependence
+                                      information
+        --emit_references:format=TEXT
+                                     Specify the format for section reference
+                                      information
+        -m,--map_file=file           Link information (map) listed into <file>
+        -o,--output_file=file        Specify output file name
+        --heap_size,-heap,--heap=size
+                                     Heap size for C/C++ dynamic memory allocation
+        --stack_size,-stack,--stack=size
+                                     Set C system stack size
+        --cinit_hold_wdt[=on,off]    Hold watchdog timer during cinit
+                                      auto-initialization (argument optional,
+                                      defaults to: on)
+      
+      File Search Path Options:
+        -l,--library=file            Include library file or command file as input
+        -i,--search_path=dir         Add <dir> to library search path
+        --end-group                  End reread library group
+        --priority,-priority         Search libraries in priority order
+        --reread_libs,-x             Reread libraries; resolve backward references
+        --start-group                Begin reread library group; resolve backward
+                                      references
+        --disable_auto_rts           Disable automatic RTS selection
+      
+      Command File Preprocessing Options:
+        --define=name=value          Pre-define preprocessor macro _name_ to _value_
+        --undefine=name              Undefine preprocessor macro _name_
+        --disable_pp                 Don't use C preprocessor for command files
+      
+      Diagnostics Options:
+        --diag_error=id              Treat diagnostic <id> as error
+        --diag_remark=id             Treat diagnostic <id> as remark
+        --diag_suppress=id           Suppress diagnostic <id>
+        --diag_warning=id            Treat diagnostic <id> as warning
+        --diag_wrap[=on,off]         Wrap diagnostic messages (argument optional,
+                                      defaults to: on)
+        --display_error_number       Emit diagnostic identifier numbers
+        --emit_warnings_as_errors,-pdew
+                                     Treat warnings as errors
+        --issue_remarks              Issue remarks
+        --no_demangle                Don't demangle symbol names in diagnostics
+        --no_warnings                Suppress warnings
+        --set_error_limit=count      Set error limit to <count>
+        --verbose_diagnostics        Verbose diagnostics
+        --warn_sections,-w           Warn if an unspecified output section is created
+      
+      Linker Output Options:
+        --absolute_exe,-a            Produce absolute executable object file
+                                      (default)
+        --ecc:data_error=(address|symbol+offset),[page,]bitmask
+                                     Introduce bit errors
+        --ecc:ecc_error=(address|symbol+offset),[page,]bitmask
+                                     Introduce bit errors in ECC memory
+        --ecc=on,off                 Control whether ECC generation is on or off
+                                      (when not specified, compiler defaults to
+                                      --ecc=off)
+        --generate_dead_funcs_list[=fname]
+                                     List removed dead functions into file
+        --mapfile_contents=attribute Display attribute settings in map file
+        --relocatable,-r             Produce a relocatable output module
+        --run_abs,-abs               Produce absolute listing file
+        --xml_link_info,-xml_link_info=file
+                                     Detailed link information data-base into <file>
+      
+      Symbol Management Options:
+        --entry_point,-e=symbol      Specify program entry point for the output
+                                      module
+        --globalize=pattern          Do not localize symbols matching pattern
+        --hide=pattern               Hide symbols matching pattern
+        --localize=pattern           Make the symbols matching pattern local
+        --make_global,-g=symbol      Don't make global symbol static if -h is
+                                      specified
+        --make_static,-h             Make all global symbols static
+        --no_sym_merge,-b            No type merging in symbolic debugging
+                                      information
+        --no_symtable,-s             Strip symbol table and line number entries
+        --retain=sym_or_scn_spec     Specify symbols/sections to be retained by
+                                      linker
+        --scan_libraries,-scanlibs   Scan libraries for duplicate symbol definitions
+        --symbol_map=refname=defname Specify a symbol map, mapping refname to defname
+        --undef_sym,-u=sym           Add <sym> to symbol table as an unresolved
+                                      symbol
+        --unhide=pattern             Exclude symbols matching pattern from hiding
+      
+      Runtime Environment Options:
+        --arg_size,--args=size       Set C argc/argv memory size
+        --be32                       Link big-endian code in be-32 format
+        --be8                        Link big-endian code in be-8 format
+        --cinit_compression[=rle,lzss,off]
+                                     Compress ELF C style auto initialization data
+                                      (argument optional, defaults to: lzss)
+        --copy_compression[=rle,lzss,off]
+                                     Compress ELF sections copied using copy tables
+                                      (argument optional, defaults to: lzss)
+        --fill_value,-f=value        Default fill value for holes in output sections
+        --ram_model,-cr              Link using RAM autoinitialization model
+        --rom_model,-c               Link using ROM autoinitialization model
+        --trampolines[=on,off]       Generate far call trampolines (argument
+                                      optional, defaults to: on)
+      
+      Miscellaneous Options:
+        --compress_dwarf[=on,off]    Aggressively reduce size of the DWARF
+                                      information (argument optional, defaults to:
+                                      on)
+        --disable_clink,-j           Disable conditional linking and ignore .clink
+        --linker_help,-help,--help   Display usage information
+        --minimize_trampolines[=postorder,off]
+                                     Select trampoline minimization algorithm
+                                      (argument optional, defaults to: postorder)
+        --preferred_order=function   Add <function> to preferred placement order list
+        --trampoline_min_spacing=size
+                                     Minimum space between non-adjacent trampolines
+        --unused_section_elimination[=on,off]
+                                     Eliminate sections not needed in the executable
+                                      (argument optional, defaults to: on)
+        --zero_init[=on,off]         Zero initialize ELF uninitialized sections
+                                      (argument optional, defaults to: on)
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-eFMsfZ"
+      binary: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-eFMsfZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-eFMsfZ
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_92364/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_92364.dir/build.make CMakeFiles/cmTC_92364.dir/build
+        Building C object CMakeFiles/cmTC_92364.dir/CMakeCCompilerABI.c.obj
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl --compile_only --c_file=/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCCompilerABI.c    --output_file=CMakeFiles/cmTC_92364.dir/CMakeCCompilerABI.c.obj
+        Linking C static library libcmTC_92364.a
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -P CMakeFiles/cmTC_92364.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92364.dir/link.txt --verbose=1
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armar qr libcmTC_92364.a CMakeFiles/cmTC_92364.dir/CMakeCCompilerABI.c.obj
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:73 (_record_compiler_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:83 (_record_compiler_features_c)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake:18 (cmake_record_c_compile_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeTestCCompiler.cmake:77 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting C compile features"
+    directories:
+      source: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-5vVpRp"
+      binary: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-5vVpRp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-5vVpRp
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d6be7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d6be7.dir/build.make CMakeFiles/cmTC_d6be7.dir/build
+        Building C object CMakeFiles/cmTC_d6be7.dir/feature_tests.c.obj
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl --compile_only --c_file=/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-5vVpRp/feature_tests.c   --c11 --strict_ansi --output_file=CMakeFiles/cmTC_d6be7.dir/feature_tests.c.obj
+        Linking C static library libcmTC_d6be7.a
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -P CMakeFiles/cmTC_d6be7.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6be7.dir/link.txt --verbose=1
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armar qr libcmTC_d6be7.a CMakeFiles/cmTC_d6be7.dir/feature_tests.c.obj
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:73 (_record_compiler_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:91 (_record_compiler_features_c)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake:18 (cmake_record_c_compile_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeTestCCompiler.cmake:77 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting C compile features"
+    directories:
+      source: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-twWXe7"
+      binary: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-twWXe7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-twWXe7
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a21a3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a21a3.dir/build.make CMakeFiles/cmTC_a21a3.dir/build
+        Building C object CMakeFiles/cmTC_a21a3.dir/feature_tests.c.obj
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl --compile_only --c_file=/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-twWXe7/feature_tests.c   --c99 --strict_ansi --output_file=CMakeFiles/cmTC_a21a3.dir/feature_tests.c.obj
+        Linking C static library libcmTC_a21a3.a
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -P CMakeFiles/cmTC_a21a3.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a21a3.dir/link.txt --verbose=1
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armar qr libcmTC_a21a3.a CMakeFiles/cmTC_a21a3.dir/feature_tests.c.obj
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:73 (_record_compiler_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:99 (_record_compiler_features_c)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake:18 (cmake_record_c_compile_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeTestCCompiler.cmake:77 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting C compile features"
+    directories:
+      source: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-qNWoXu"
+      binary: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-qNWoXu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-qNWoXu
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca50f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ca50f.dir/build.make CMakeFiles/cmTC_ca50f.dir/build
+        Building C object CMakeFiles/cmTC_ca50f.dir/feature_tests.c.obj
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl --compile_only --c_file=/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-qNWoXu/feature_tests.c   --c89 --strict_ansi --output_file=CMakeFiles/cmTC_ca50f.dir/feature_tests.c.obj
+        Linking C static library libcmTC_ca50f.a
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -P CMakeFiles/cmTC_ca50f.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca50f.dir/link.txt --verbose=1
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armar qr libcmTC_ca50f.a CMakeFiles/cmTC_ca50f.dir/feature_tests.c.obj
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-djA6US"
+      binary: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-djA6US"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-djA6US
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2692f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2692f.dir/build.make CMakeFiles/cmTC_2692f.dir/build
+        Building CXX object CMakeFiles/cmTC_2692f.dir/CMakeCXXCompilerABI.cpp.obj
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl --compile_only --cpp_file=/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp    --output_file=CMakeFiles/cmTC_2692f.dir/CMakeCXXCompilerABI.cpp.obj
+        Linking CXX static library libcmTC_2692f.a
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -P CMakeFiles/cmTC_2692f.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2692f.dir/link.txt --verbose=1
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armar qr libcmTC_2692f.a CMakeFiles/cmTC_2692f.dir/CMakeCXXCompilerABI.cpp.obj
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-slxXwF"
+      binary: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-slxXwF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-slxXwF
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fc3d2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fc3d2.dir/build.make CMakeFiles/cmTC_fc3d2.dir/build
+        Building CXX object CMakeFiles/cmTC_fc3d2.dir/feature_tests.cxx.obj
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl --compile_only --cpp_file=/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-slxXwF/feature_tests.cxx   --c++14 --strict_ansi --output_file=CMakeFiles/cmTC_fc3d2.dir/feature_tests.cxx.obj
+        Linking CXX static library libcmTC_fc3d2.a
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -P CMakeFiles/cmTC_fc3d2.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc3d2.dir/link.txt --verbose=1
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armar qr libcmTC_fc3d2.a CMakeFiles/cmTC_fc3d2.dir/feature_tests.cxx.obj
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-VM1frO"
+      binary: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-VM1frO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-VM1frO
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23c8a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_23c8a.dir/build.make CMakeFiles/cmTC_23c8a.dir/build
+        Building CXX object CMakeFiles/cmTC_23c8a.dir/feature_tests.cxx.obj
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl --compile_only --cpp_file=/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-VM1frO/feature_tests.cxx   --strict_ansi --output_file=CMakeFiles/cmTC_23c8a.dir/feature_tests.cxx.obj
+        Linking CXX static library libcmTC_23c8a.a
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -P CMakeFiles/cmTC_23c8a.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23c8a.dir/link.txt --verbose=1
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armar qr libcmTC_23c8a.a CMakeFiles/cmTC_23c8a.dir/feature_tests.cxx.obj
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:137 (_record_compiler_features_cxx)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:27 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-Vm20zF"
+      binary: "/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-Vm20zF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: /Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-Vm20zF
+        
+        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_60fd7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_60fd7.dir/build.make CMakeFiles/cmTC_60fd7.dir/build
+        Building CXX object CMakeFiles/cmTC_60fd7.dir/feature_tests.cxx.obj
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl --compile_only --cpp_file=/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/CMakeFiles/CMakeScratch/TryCompile-Vm20zF/feature_tests.cxx   --strict_ansi --output_file=CMakeFiles/cmTC_60fd7.dir/feature_tests.cxx.obj
+        Linking CXX static library libcmTC_60fd7.a
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -P CMakeFiles/cmTC_60fd7.dir/cmake_clean_target.cmake
+        /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60fd7.dir/link.txt --verbose=1
+        /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armar qr libcmTC_60fd7.a CMakeFiles/cmTC_60fd7.dir/feature_tests.cxx.obj
+        
+      exitCode: 0
+...

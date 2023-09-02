@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/source/dabort.asm
+
+/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/source/sys_core.asm
+
+/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/source/sys_intvecs.asm
+
+/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/source/sys_mpu.asm
+
+/Users/watsonDev/work/workspace/CLion/TMS570/SCI_TEST/source/sys_pmu.asm
+
